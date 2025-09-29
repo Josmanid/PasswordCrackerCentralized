@@ -14,7 +14,7 @@ namespace PasswordCrackerDecentralizedSlave
         static void Main() {
             //TCP client slave connection 
             Console.WriteLine("Slave client is ready to receive the order!");
-            int port = 7;
+            int port = 5000;
             // Connect to the master server on localhost (127.0.0.1)
             TcpClient client = new TcpClient("127.0.0.1", port);
 
